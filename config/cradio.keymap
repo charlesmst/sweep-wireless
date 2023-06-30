@@ -21,12 +21,8 @@
     conditional_layers {
         compatible = "zmk,conditional-layers";
         tri_layer {
-            if-layers = <3 5>;
-            then-layer = <6>;
-        };
-        tri_layer_mac {
-            if-layers = <4 5>;
-            then-layer = <6>;
+            if-layers = <LOWER RAISE>;
+            then-layer = <SUPER>;
         };
     };
     behaviors {
