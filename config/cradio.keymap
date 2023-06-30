@@ -14,7 +14,7 @@
 #define SUPER 4
 #define TILIN 5
 #define HRML(k1,k2,k3,k4) &lt TILIN k1  &hm LCTRL k2  &hm LALT k3  &hm LGUI k4
-#define HRMR(k1,k2,k3,k4) &lt LGUI k1  &hm RALT  k2 &hm RCTRL k3  &lt TILIN k4
+#define HRMR(k1,k2,k3,k4) &hm LGUI k1  &hm RALT  k2 &hm RCTRL k3  &lt TILIN k4
 
 / {
 
